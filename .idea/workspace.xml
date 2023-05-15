@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="757c3958-c1fb-4caf-acad-f603c6383535" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/romannumerals/RomanNumerals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/romannumerals/RomanNumeralsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/romannumerals/RomanConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/romannumerals/RomanConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/romannumerals/RomanNumeralsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/romannumerals/RomanNumeralsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +34,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/salt-dev/IdeaProjects/RomanNumerals/src/test/java",
     "node.js.detected.package.eslint": "true",
@@ -50,7 +50,7 @@
       <recent name="$PROJECT_DIR$/src/test/java" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.RomanNumeralsTest">
     <configuration name="RomanNumeralsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RomanNumerals" />
       <extension name="coverage">
@@ -66,9 +66,77 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RomanNumeralsTest.convert10ToRoman" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RomanNumerals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="romannumerals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="romannumerals" />
+      <option name="MAIN_CLASS_NAME" value="romannumerals.RomanNumeralsTest" />
+      <option name="METHOD_NAME" value="convert10ToRoman" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RomanNumeralsTest.convert1ToRoman" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RomanNumerals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="romannumerals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="romannumerals" />
+      <option name="MAIN_CLASS_NAME" value="romannumerals.RomanNumeralsTest" />
+      <option name="METHOD_NAME" value="convert1ToRoman" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RomanNumeralsTest.convertXIToArabic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RomanNumerals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="romannumerals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="romannumerals" />
+      <option name="MAIN_CLASS_NAME" value="romannumerals.RomanNumeralsTest" />
+      <option name="METHOD_NAME" value="convertXIToArabic" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RomanNumeralsTest.convertXXToArabic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RomanNumerals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="romannumerals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="romannumerals" />
+      <option name="MAIN_CLASS_NAME" value="romannumerals.RomanNumeralsTest" />
+      <option name="METHOD_NAME" value="convertXXToArabic" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RomanNumeralsTest" />
+        <item itemvalue="JUnit.RomanNumeralsTest.convertXIToArabic" />
+        <item itemvalue="JUnit.RomanNumeralsTest.convertXXToArabic" />
+        <item itemvalue="JUnit.RomanNumeralsTest.convert1ToRoman" />
+        <item itemvalue="JUnit.RomanNumeralsTest.convert10ToRoman" />
       </list>
     </recent_temporary>
   </component>
@@ -80,11 +148,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684167445306</updated>
-      <workItem from="1684167446375" duration="765000" />
+      <workItem from="1684167446375" duration="5521000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/romannumerals/RomanNumeralsTest.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
