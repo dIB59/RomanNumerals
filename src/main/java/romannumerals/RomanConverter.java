@@ -31,8 +31,8 @@ public class RomanConverter {
                 if (romanNumbers.startsWith(numeral.name(), i)) {
                     totalValue += numeral.getValue();
 
-                    if (previousNumeral =< numeral.getValue()){
-                        totalValue -= numeral.getValue();
+                    if (i > 0 && previousNumeral < numeral.getValue()){
+                        totalValue = totalValue - 2 * previousNumeral;
                     }
 
                     previousNumeral = numeral.getValue();

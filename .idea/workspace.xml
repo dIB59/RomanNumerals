@@ -7,7 +7,6 @@
     <list default="true" id="757c3958-c1fb-4caf-acad-f603c6383535" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/romannumerals/RomanConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/romannumerals/RomanConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/romannumerals/RomanNumeralsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/romannumerals/RomanNumeralsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +65,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RomanNumeralsTest.convert10ToRoman" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RomanNumeralsTest.convertAllRomanToArabic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RomanNumerals" />
       <extension name="coverage">
         <pattern>
@@ -76,13 +75,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="romannumerals" />
       <option name="MAIN_CLASS_NAME" value="romannumerals.RomanNumeralsTest" />
-      <option name="METHOD_NAME" value="convert10ToRoman" />
+      <option name="METHOD_NAME" value="convertAllRomanToArabic(java.lang.String,int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RomanNumeralsTest.convert1ToRoman" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RomanNumeralsTest.convertAllRomanToArabic.[2] IV, 4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RomanNumerals" />
       <extension name="coverage">
         <pattern>
@@ -92,8 +91,10 @@
       </extension>
       <option name="PACKAGE_NAME" value="romannumerals" />
       <option name="MAIN_CLASS_NAME" value="romannumerals.RomanNumeralsTest" />
-      <option name="METHOD_NAME" value="convert1ToRoman" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="uniqueId" />
+      <uniqueIds>
+        <uniqueId value="[engine:junit-jupiter]/[class:romannumerals.RomanNumeralsTest]/[test-template:convertAllRomanToArabic(java.lang.String, int)]/[test-template-invocation:#2]" />
+      </uniqueIds>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,10 +134,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RomanNumeralsTest" />
+        <item itemvalue="JUnit.RomanNumeralsTest.convertAllRomanToArabic.[2] IV, 4" />
+        <item itemvalue="JUnit.RomanNumeralsTest.convertAllRomanToArabic" />
         <item itemvalue="JUnit.RomanNumeralsTest.convertXIToArabic" />
         <item itemvalue="JUnit.RomanNumeralsTest.convertXXToArabic" />
-        <item itemvalue="JUnit.RomanNumeralsTest.convert1ToRoman" />
-        <item itemvalue="JUnit.RomanNumeralsTest.convert10ToRoman" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +149,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684167445306</updated>
-      <workItem from="1684167446375" duration="5521000" />
+      <workItem from="1684167446375" duration="6205000" />
     </task>
     <servers />
   </component>
@@ -160,8 +161,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/romannumerals/RomanNumeralsTest.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="1" />
+          <line>47</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
